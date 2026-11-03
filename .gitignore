@@ -1,0 +1,53 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python packaging and test tooling
+.pytest_cache/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.egg-info/
+dist/
+build/
+
+# Blender-generated files and project results
+00_results/
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# AGENTIC
+AGENTS.md
+dossier.md
