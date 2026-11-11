@@ -1,0 +1,20 @@
+[project]
+name = "ommatidia"
+version = "0.1.0"
+description = "Blender extension: cover any mesh with a regular lattice of insect ommatidia"
+requires-python = ">=3.11"
+dependencies = ["numpy>=1.26"]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "test"]
+testpaths = ["test/pure"]

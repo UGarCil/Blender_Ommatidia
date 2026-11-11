@@ -1,0 +1,17 @@
+schema_version = "1.0.0"
+
+id = "ommatidia"
+version = "0.2.1"
+name = "Ommatidia"
+tagline = "Cover any mesh with a regular lattice of insect ommatidia"
+maintainer = "UGarCil"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+tags = ["Modeling", "Add Mesh", "Material"]
+
+# Development notes and docs are not needed inside the installed extension.
+[build]
+paths_exclude_pattern = ["__pycache__/", "/.git/", "*.md"]
